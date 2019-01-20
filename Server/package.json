@@ -31,7 +31,7 @@
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "duplexer": "^0.1.1",
-    "event-stream": "^4.0.1",
+    "event-stream": "^3.3.4",
     "express": "^4.16.4",
     "express-rate-limit": "^3.3.2",
     "express-session": "^1.15.6",
