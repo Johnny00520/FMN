@@ -1,0 +1,40 @@
+.users-page {
+  height: 50%; }
+  .users-page .users-exits-container {
+    height: 50%; }
+    .users-page .users-exits-container .userList-page {
+      height: 100%; }
+      .users-page .users-exits-container .userList-page .table-page {
+        height: 100%; }
+        .users-page .users-exits-container .userList-page .table-page .ui.form {
+          height: 30%; }
+
+.fields-container {
+  width: 85%;
+  margin: 0 auto; }
+  .fields-container .error-msg-color {
+    color: red; }
+
+.usersAddNewForm-container {
+  width: 80%;
+  margin: 0 auto; }
+
+.users-exits-container {
+  width: 90%;
+  margin: 0 auto; }
+  .users-exits-container .table-container {
+    width: 100%; }
+
+.navbar-container {
+  padding-top: 3rem; }
+
+.search-input-field {
+  height: 20%; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ui.icon.input > i.icon:not(.link) {
+    height: 90%; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ui.icon.input > i.icon:not(.link) {
+    height: 90%; } }

@@ -1,0 +1,77 @@
+.render-field {
+  width: 100%; }
+
+.UserLogin-page {
+  background-image: url(../../assets/loginTest.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .UserLogin-page .userLogin-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    background-color: #E7E4E3;
+    border-radius: 10px;
+    opacity: 0.9;
+    height: 40%; }
+    .UserLogin-page .userLogin-content .userLogin-leftContent {
+      max-width: 50%;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      border-right: 2px solid; }
+      .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker button {
+          min-width: 35%; }
+        .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker button {
+          max-width: 20%;
+          margin: 0 auto;
+          margin-top: 5%; }
+        .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker a {
+          color: white; }
+    .UserLogin-page .userLogin-content .userLogin-rightContent {
+      max-width: 100%;
+      width: 40%;
+      margin: 0 auto; }
+      .UserLogin-page .userLogin-content .userLogin-rightContent .ui.form .btnForm {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%; }
+        .UserLogin-page .userLogin-content .userLogin-rightContent .ui.form .btnForm a {
+          color: grey; }
+      .UserLogin-page .userLogin-content .userLogin-rightContent .ui.form .field-area {
+        width: 100%; }
+
+@media (max-width: 768px) {
+  .userLogin-content {
+    flex-direction: column; }
+  .UserLogin-page .userLogin-content {
+    height: 30%; }
+    .UserLogin-page .userLogin-content .userLogin-leftContent {
+      border-right: unset;
+      border-bottom: 2px solid;
+      min-width: 100%; }
+      .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker {
+        width: 100%; }
+        .UserLogin-page .userLogin-content .userLogin-leftContent .userLogin-member-checker button {
+          min-width: 50%; }
+    .UserLogin-page .userLogin-content .userLogin-rightContent {
+      background-color: #E7E4E3;
+      width: 100%;
+      border-radius: 10px; }
+      .UserLogin-page .userLogin-content .userLogin-rightContent .rightContent-container {
+        width: 90%; } }

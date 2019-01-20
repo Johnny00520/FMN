@@ -1,0 +1,42 @@
+.nonOrgs-page {
+  margin: 0 auto;
+  height: 100%; }
+  .nonOrgs-page .nonOrgs-page-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 100%; }
+    .nonOrgs-page .nonOrgs-page-container .ui.blue.ribbon.label {
+      font-size: 2rem;
+      margin: 5% 0; }
+    .nonOrgs-page .nonOrgs-page-container .nonOrgs-title-description {
+      width: 80%;
+      margin: 0 auto; }
+    .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container {
+      display: flex;
+      flex-direction: row;
+      padding-top: 5%; }
+      .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-container {
+        width: 25%;
+        border: 2px solid;
+        border-left: none;
+        border-bottom: none; }
+        .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-container .nonOrgs-list {
+          padding: 5%; }
+      .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container {
+        width: 100%; }
+        .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container .nonOrgs-list-content {
+          padding: 0% 5% 5% 5%; }
+          .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container .nonOrgs-list-content .content-section-container {
+            height: 100%; }
+            .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container .nonOrgs-list-content .content-section-container .content-section {
+              display: flex;
+              padding-bottom: 10%; }
+              .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container .nonOrgs-list-content .content-section-container .content-section .section-name-img {
+                width: 30%; }
+              .nonOrgs-page .nonOrgs-page-container .nonOrgs-sub-container .nonOrgs-list-content-container .nonOrgs-list-content .content-section-container .content-section .org-desciption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%; }

@@ -1,0 +1,19 @@
+.first-time-login {
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../assets/testHome.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s ease 0s; }
+  .first-time-login .fields-container {
+    background: lightgray;
+    width: 70%;
+    padding: 4%;
+    border-radius: 25px; }
+  .first-time-login .btn {
+    display: flex;
+    justify-content: flex-end; }

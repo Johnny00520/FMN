@@ -1,0 +1,86 @@
+.artists-section {
+  background-color: lightgray;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .artists-section .artistsSection-title {
+    color: white;
+    position: relative;
+    transform: translateY(-50%);
+    text-align: center; }
+  .artists-section .sliders {
+    top: 5%;
+    padding-bottom: 5%; }
+    .artists-section .sliders .slide-show {
+      width: 85%; }
+      .artists-section .sliders .slide-show .ss-arrows {
+        width: 100%; }
+  .artists-section .pledge-description-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: black; }
+    .artists-section .pledge-description-container .pledge-description-subtitle {
+      color: black;
+      font-size: 2.5rem; }
+    .artists-section .pledge-description-container .pledge-description {
+      color: black;
+      font-size: 1.8rem; }
+    .artists-section .pledge-description-container .contact-cathy {
+      font-size: 1.5rem; }
+
+@media (max-width: 769px) {
+  .artists-section {
+    top: 20%;
+    height: 100vh; }
+    .artists-section .sliders .slide-show .ss-arrows {
+      width: 50%; }
+    .artists-section .sliders .slide-show .ss-images-size {
+      height: 40vh; }
+    .artists-section .sliders .slide-show .ss-thumbnails-track {
+      height: 15vh; }
+    .artists-section .pledge-description-container {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      height: 40%; }
+      .artists-section .pledge-description-container .pledge-description-subtitle {
+        color: white;
+        font-size: 3rem; }
+      .artists-section .pledge-description-container .pledge-description {
+        color: white;
+        font-size: 2rem; }
+      .artists-section .pledge-description-container .contact-cathy {
+        font-size: 1.5rem; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .artists-section .artistsSection-title {
+    color: white;
+    position: relative;
+    transform: translateY(-50%);
+    text-align: center; }
+  .artists-section .sliders .slide-show .ss-images-size {
+    height: 40vh; }
+  .artists-section .pledge-description-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 40%; }
+    .artists-section .pledge-description-container .pledge-description-subtitle {
+      color: white;
+      font-size: 1.8rem; }
+    .artists-section .pledge-description-container .pledge-description {
+      color: white;
+      font-size: 1.3rem; }
+    .artists-section .pledge-description-container .contact-cathy {
+      font-size: 1.3rem; } }
+
+@media (min-width: 320px) and (max-width: 370px) {
+  .artists-section {
+    height: 120vh; } }

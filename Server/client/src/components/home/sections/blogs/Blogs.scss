@@ -1,0 +1,24 @@
+.blogs-section {
+    background-image: url(../../../../assets/loginTest.jpg);
+    padding-top: 96px;
+    padding-bottom: 66px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    // height: 100%;
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .blogs-title {
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+}

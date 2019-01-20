@@ -1,0 +1,46 @@
+.ui.form{
+    padding-top: 5%;
+}
+
+.ui.form .field>label {
+    font-size: 1.5rem;
+}
+
+.ui.form .inline.fields>label {
+    font-size: 1.5rem;
+}
+
+.ui.checkbox input.hidden+label {
+    font-size: 1.5rem;
+}
+
+.ui.form input[type=text] {
+    font-size: 1.2rem;
+}
+
+.ui.form textarea {
+    font-size: 1.2rem;
+}
+
+.ui.dividing.header {
+    color: blue;
+}
+
+
+.signup-background {
+    background-color: lightgreen;
+    padding-top: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.form:not(.unstackable) .two.fields:not(.unstackable)>.field {
+        width: 0%;
+    }
+
+    .ui.form .fields {
+        flex-wrap: unset;
+    }
+    .rc-anchor-light.rc-anchor-normal {
+        width: 89% !important;
+    }
+}

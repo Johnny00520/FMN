@@ -1,0 +1,27 @@
+.footer-home {
+  height: 64px !important;
+  width: 100%;
+  bottom: 0;
+  background-color: #2B2B2B;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  align-items: center; }
+  .footer-home .linkToContact {
+    color: white; }
+
+.footer-others {
+  height: 64px !important;
+  width: 100%;
+  bottom: 0;
+  background-color: #2B2B2B;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  align-items: center; }
+  .footer-others .linkToContact {
+    color: white; }

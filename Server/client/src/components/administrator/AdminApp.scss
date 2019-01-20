@@ -1,0 +1,53 @@
+.admin-App {
+    height: 100%;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+// @media (min-width: 768px) and (max-width: 1024px) {
+//     .full-screen-navigation {
+//         list-style: none;
+//         display: 
+//     }
+// }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    // .admin-navigation {
+        
+    //     display: none;
+    // }
+    // .full-screen-navigation ul{
+    //     display: none;
+    //     list-style: none;
+    // }
+    .admin-App {
+        height: 100%;
+        .haha {
+            margin-top: 64px;
+
+            .test {
+                // display: none !important;
+            }
+        }
+    }
+    
+}
+
+
+// @media (min-width: 320px) and (max-width: 769px) {
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .admin-navigation {
+
+        display: none;
+    }
+
+    .full-screen-navigation{
+        display: none;
+        list-style: none;
+    }
+}

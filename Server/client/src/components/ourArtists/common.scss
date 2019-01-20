@@ -1,0 +1,235 @@
+.our-artists-page {
+    margin: 0 auto;
+    height: 100%;
+
+    .our-artists-container {
+        width: 90%;
+        margin: 0 auto;
+        background-color: lightgray;
+        height: 100%;
+
+        .ui.blue.ribbon.label {
+            font-size: 2rem;
+            margin: 5% 0;
+        }
+    
+        .our-artists-title-description {
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 5%;
+        }
+
+        .our-artist-subcontainer {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .our-artist-list-container {
+                width: 25%;
+                border: 2px solid;
+                border-left: none;
+                border-bottom: none;
+
+                .our-artist-list {
+                    padding: 5%
+                }
+            }
+
+
+            .artist-list-content {
+                width: 100%;
+                padding: 0 5% 5% 5%;
+
+                .our-artist-content-container {
+                    width: 100%;
+
+                    .content-section-container {
+                        padding-bottom: 10%;
+
+                        .content-section {
+                            display: flex;
+                            padding-bottom: 5%;
+
+                            .artist-desciption-container {
+                                width: 100%;
+                                // display: flex;
+                                // align-items: center;
+                                .artist-desciption {
+                                    padding: 5%;
+                                }
+                            }
+                        }
+
+                        .abt-artist {
+                            padding-bottom: 5%;
+                            border-bottom: 3px solid;
+
+                            .abt-artist-section {
+                                border-top: 1px solid;
+                                padding-top: 3%;
+    
+                                .artist-img-description {
+                                    display: flex;
+    
+                                    .artist-introduction {
+                                        padding: 5%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (min-width: 768px) and (max-width: 1024px) {
+//     .our-artists-page {
+//         margin: 0 auto;
+//         // height: 90vh;
+//         height: 100%;
+    
+//         .our-artists-container {
+    
+//             margin: 0 auto;
+//             background-color: lightgray;
+//             height: 100%;
+
+//             .our-artist-list {
+//                 padding: 5%
+//             }
+        
+//             .our-artists-title-description {
+//                 width: 95%;
+//                 margin: 0 auto;
+//                 padding-bottom: 5%;
+//             }
+    
+//             .our-artist-subcontainer {
+//                 display: flex;
+//                 flex-direction: row;
+//                 width: 100%;
+    
+                
+    
+//                 .artist-list-content {
+//                     width: 100%;
+//                     padding-left: 2%;
+    
+//                     .artist-list-content-container {
+//                         width: 95;
+//                         margin: 0 auto;
+//                     }
+    
+//                     .artist-list-content-artifact {
+//                         display: flex;
+//                         flex-direction: row;
+//                         width: 100%;
+//                         height: 200px;
+    
+//                         .artist-list-content-description {
+//                             display: flex;
+//                             flex-direction: column;
+//                             width: 100%;
+//                             // margin: 0 auto;
+//                             // margin-left: 3%;
+//                             justify-content: space-evenly;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .our-artists-page {
+        margin: 0 auto;
+        height: 100%;
+    
+        .our-artists-container {
+            width: 90%;
+            margin: 0 auto;
+            background-color: lightgray;
+            height: 100%;
+    
+            .ui.blue.ribbon.label {
+                font-size: 2rem;
+                margin: 5% 0;
+            }
+        
+            .our-artists-title-description {
+                width: 90%;
+                margin: 0 auto;
+                padding-bottom: 5%;
+            }
+    
+            .our-artist-subcontainer {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+    
+                .our-artist-list-container {
+                    width: 25%;
+                    border: 2px solid;
+                    border-left: none;
+                    border-bottom: none;
+    
+                    .our-artist-list {
+                        padding: 5%
+                    }
+                }
+    
+    
+                .artist-list-content {
+                    width: 100%;
+                    padding: 0 5% 5% 5%;
+    
+                    .our-artist-content-container {
+                        width: 100%;
+    
+                        .content-section-container {
+                            padding-bottom: 10%;
+    
+                            .content-section {
+                                display: flex;
+                                padding-bottom: 5%;
+                                flex-direction: column;
+    
+                                .artist-desciption-container {
+                                    width: 100%;
+                                    // display: flex;
+                                    // align-items: center;
+                                    .artist-desciption {
+                                        padding: 5%;
+                                    }
+                                }
+                            }
+    
+                            .abt-artist {
+                                padding-bottom: 5%;
+                                border-bottom: 3px solid;
+
+    
+                                .abt-artist-section {
+                                    border-top: 1px solid;
+                                    padding-top: 3%;
+        
+                                    .artist-img-description {
+                                        display: flex;
+                                        flex-direction: column;
+        
+                                        .artist-introduction {
+                                            padding: 5%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.form {
+  height: 100%; }
+  .form .form-container {
+    background: lightblue;
+    height: 100%; }
+    .form .form-container .ui.blue.ribbon.label {
+      font-size: 2rem; }
+    .form .form-container .form-user-details {
+      width: 80%;
+      margin: auto;
+      height: 100%;
+      padding: 3%;
+      background: #97D0A9;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .form .form-container .form-user-details .form-user-details-container {
+        height: 100%; }
+        .form .form-container .form-user-details .form-user-details-container label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container input {
+          background-color: #e6e9e6; }
+        .form .form-container .form-user-details .form-user-details-container span {
+          font-size: 2rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields > label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.checkbox input.hidden + label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .button-continue {
+          text-align: center; }
+        .form .form-container .form-user-details .form-user-details-container .back-continue-buttons {
+          display: flex;
+          justify-content: space-evenly; }
+          .form .form-container .form-user-details .form-user-details-container .back-continue-buttons .button-continue {
+            margin: 0 10px; }
+        .form .form-container .form-user-details .form-user-details-container .confirm-buttons {
+          display: flex;
+          justify-content: space-evenly; }
+        .form .form-container .form-user-details .form-user-details-container .recaptcha-container {
+          text-align: center; }
+        .form .form-container .form-user-details .form-user-details-container .back-to-home {
+          text-align: center; }
+  .form .height-controller {
+    height: 85vh; }
+    .form .height-controller .confirm-page {
+      height: 100%; }
+      .form .height-controller .confirm-page .ui.form {
+        height: 100%; }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .form {
+    height: 100%; }
+    .form .form-container {
+      background: lightblue;
+      height: 100%; }
+      .form .form-container .ui.blue.ribbon.label {
+        font-size: 2rem; }
+      .form .form-container .form-user-details {
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        padding: 3%;
+        background: #97D0A9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
+        .form .form-container .form-user-details .form-user-details-container label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container span {
+          font-size: 2rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields > label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.checkbox input.hidden + label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .button-continue {
+          text-align: center; }
+  .height-controller {
+    height: 90vh; }
+    .height-controller .confirm-page {
+      height: 100%; }
+      .height-controller .confirm-page .ui.form {
+        height: 100%; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .form {
+    height: 100%; }
+    .form .form-container {
+      background: lightblue;
+      height: 100%; }
+      .form .form-container .ui.blue.ribbon.label {
+        font-size: 2rem; }
+      .form .form-container .form-user-details {
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        padding: 3%;
+        background: #97D0A9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
+        .form .form-container .form-user-details .form-user-details-container label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container span {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.form .field > label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields > label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .ui.checkbox input.hidden + label {
+          font-size: 1.5rem; }
+        .form .form-container .form-user-details .form-user-details-container .button-continue {
+          text-align: center; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form {
+    height: 100%; }
+    .form .form-container .ui.blue.ribbon.label {
+      font-size: 0.7rem; }
+    .form .form-container .form-user-details {
+      width: 95%;
+      margin: auto;
+      height: 100%;
+      padding: 0%;
+      background: #97D0A9;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .form .form-container .form-user-details .form-user-details-container label {
+        font-size: 1.2rem; }
+      .form .form-container .form-user-details .form-user-details-container span {
+        font-size: 1.1rem; }
+      .form .form-container .form-user-details .form-user-details-container .ui.form .field > label {
+        font-size: 1rem; }
+      .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields {
+        font-size: 1rem; }
+      .form .form-container .form-user-details .form-user-details-container .ui.form .inline.fields > label {
+        font-size: 1rem; }
+      .form .form-container .form-user-details .form-user-details-container .ui.checkbox input.hidden + label {
+        font-size: 1rem; }
+      .form .form-container .form-user-details .form-user-details-container .button-continue {
+        text-align: center; } }

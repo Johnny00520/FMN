@@ -1,0 +1,55 @@
+.modal-container {
+    position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+.login-image img {
+    width: 50%;
+    height: auto;
+}
+
+.login-image:hover img {
+    opacity: 0.3;
+}
+
+.login-image-container {
+    text-align: center;
+}
+
+.text-field {
+    width: 100%;
+}
+
+.touched-error {
+    color: red;
+}
+
+.signup-subtitle {
+    color: blue;
+    text-align: center;
+}
+
+.field-area {
+    width: 100%;
+    // margin-left: 30px;
+}
+
+.error-message {
+    color: red;
+}
+
+.recaptcha {
+    text-align: center;
+    padding-top: 15px;
+}
+
+// .test .btn-default  {
+//     display: flex;
+//     align-content: flex-start;
+// }
+
+// .test2 .btn-default  {
+//     align-content: flex-end;
+// }

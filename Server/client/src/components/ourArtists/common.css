@@ -1,0 +1,104 @@
+.our-artists-page {
+  margin: 0 auto;
+  height: 100%; }
+  .our-artists-page .our-artists-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 100%; }
+    .our-artists-page .our-artists-container .ui.blue.ribbon.label {
+      font-size: 2rem;
+      margin: 5% 0; }
+    .our-artists-page .our-artists-container .our-artists-title-description {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 5%; }
+    .our-artists-page .our-artists-container .our-artist-subcontainer {
+      display: flex;
+      flex-direction: row;
+      width: 100%; }
+      .our-artists-page .our-artists-container .our-artist-subcontainer .our-artist-list-container {
+        width: 25%;
+        border: 2px solid;
+        border-left: none;
+        border-bottom: none; }
+        .our-artists-page .our-artists-container .our-artist-subcontainer .our-artist-list-container .our-artist-list {
+          padding: 5%; }
+      .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content {
+        width: 100%;
+        padding: 0 5% 5% 5%; }
+        .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container {
+          width: 100%; }
+          .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container {
+            padding-bottom: 10%; }
+            .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section {
+              display: flex;
+              padding-bottom: 5%; }
+              .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section .artist-desciption-container {
+                width: 100%; }
+                .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section .artist-desciption-container .artist-desciption {
+                  padding: 5%; }
+            .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist {
+              padding-bottom: 5%;
+              border-bottom: 3px solid; }
+              .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section {
+                border-top: 1px solid;
+                padding-top: 3%; }
+                .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section .artist-img-description {
+                  display: flex; }
+                  .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section .artist-img-description .artist-introduction {
+                    padding: 5%; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .our-artists-page {
+    margin: 0 auto;
+    height: 100%; }
+    .our-artists-page .our-artists-container {
+      width: 90%;
+      margin: 0 auto;
+      background-color: lightgray;
+      height: 100%; }
+      .our-artists-page .our-artists-container .ui.blue.ribbon.label {
+        font-size: 2rem;
+        margin: 5% 0; }
+      .our-artists-page .our-artists-container .our-artists-title-description {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 5%; }
+      .our-artists-page .our-artists-container .our-artist-subcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%; }
+        .our-artists-page .our-artists-container .our-artist-subcontainer .our-artist-list-container {
+          width: 25%;
+          border: 2px solid;
+          border-left: none;
+          border-bottom: none; }
+          .our-artists-page .our-artists-container .our-artist-subcontainer .our-artist-list-container .our-artist-list {
+            padding: 5%; }
+        .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content {
+          width: 100%;
+          padding: 0 5% 5% 5%; }
+          .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container {
+            width: 100%; }
+            .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container {
+              padding-bottom: 10%; }
+              .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section {
+                display: flex;
+                padding-bottom: 5%;
+                flex-direction: column; }
+                .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section .artist-desciption-container {
+                  width: 100%; }
+                  .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .content-section .artist-desciption-container .artist-desciption {
+                    padding: 5%; }
+              .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist {
+                padding-bottom: 5%;
+                border-bottom: 3px solid; }
+                .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section {
+                  border-top: 1px solid;
+                  padding-top: 3%; }
+                  .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section .artist-img-description {
+                    display: flex;
+                    flex-direction: column; }
+                    .our-artists-page .our-artists-container .our-artist-subcontainer .artist-list-content .our-artist-content-container .content-section-container .abt-artist .abt-artist-section .artist-img-description .artist-introduction {
+                      padding: 5%; } }

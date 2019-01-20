@@ -1,0 +1,19 @@
+.admin-App {
+  height: 100%; }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .admin-App {
+    height: 100%; }
+    .admin-App .haha {
+      margin-top: 64px; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .admin-navigation {
+    display: none; }
+  .full-screen-navigation {
+    display: none;
+    list-style: none; } }

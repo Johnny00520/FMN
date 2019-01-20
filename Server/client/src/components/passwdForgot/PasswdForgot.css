@@ -1,0 +1,25 @@
+.password-forgot-form-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../assets/testHome_whales.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s ease 0s; }
+  .password-forgot-form-container .password-forgot-form {
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3%; }
+    .password-forgot-form-container .password-forgot-form .error-msg-color {
+      color: red; }
+    .password-forgot-form-container .password-forgot-form .forgot-btn {
+      text-align: right;
+      padding-top: 3%; }

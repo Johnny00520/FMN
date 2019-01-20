@@ -1,0 +1,10 @@
+.faqs-page {
+  height: 100%; }
+  .faqs-page h1 {
+    text-align: center; }
+  .faqs-page .faqs-form-container {
+    width: 80%;
+    margin: auto; }
+
+.table-container {
+  width: 90%; }

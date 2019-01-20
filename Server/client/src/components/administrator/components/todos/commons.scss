@@ -1,0 +1,48 @@
+.todos-page {
+    height: 100%;
+
+    .todos-page-container {
+        height: 30%;
+    
+        .search-container {
+            text-align: center;
+        }
+    }
+}
+
+
+.table-container {
+    margin: 0 auto;
+    margin-top: 5%;
+
+    .todo-checkbox {
+        margin-right: 2%;
+        text-decoration: line-through;
+        color: red;
+    }
+
+    .task-done {
+        text-decoration: line-through;
+        color: red;
+    }
+}
+
+.todos-exits-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table>thead:first-child>tr:first-child>th {
+    text-align: center;
+}
+
+td.center-aligned {
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .ui.icon.input > i.icon:not(.link) {
+        height: 35%;
+    }
+}

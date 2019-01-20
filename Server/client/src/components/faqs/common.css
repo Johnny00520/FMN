@@ -1,0 +1,34 @@
+.faqs-page {
+  height: 100%; }
+  .faqs-page .faqs-page-container {
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    background: #EDF0EE; }
+    .faqs-page .faqs-page-container .faqs-page-content {
+      width: 90%;
+      margin: auto;
+      height: 100%;
+      background: lightskyblue; }
+      .faqs-page .faqs-page-container .faqs-page-content .faqs-page-title {
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column; }
+        .faqs-page .faqs-page-container .faqs-page-content .faqs-page-title .ui.black.ribbon.label {
+          font-size: 1.5rem; }
+        .faqs-page .faqs-page-container .faqs-page-content .faqs-page-title .title {
+          border-bottom: double;
+          width: 40%;
+          font-size: 2rem; }
+      .faqs-page .faqs-page-container .faqs-page-content .faqs-list {
+        margin: 3% 0; }
+        .faqs-page .faqs-page-container .faqs-page-content .faqs-list .faq-list-container {
+          width: 100%; }
+          .faqs-page .faqs-page-container .faqs-page-content .faqs-list .faq-list-container .faq-list-question {
+            font-family: "Times New Roman", Times, serif; }
+            .faqs-page .faqs-page-container .faqs-page-content .faqs-list .faq-list-container .faq-list-question .question {
+              font-size: 3.5rem; }
+          .faqs-page .faqs-page-container .faqs-page-content .faqs-list .faq-list-container .faq-list-answer {
+            font-family: Arial, Helvetica, sans-serif; }
+            .faqs-page .faqs-page-container .faqs-page-content .faqs-list .faq-list-container .faq-list-answer .answer {
+              font-size: 2rem; }
